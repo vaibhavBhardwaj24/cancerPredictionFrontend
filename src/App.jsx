@@ -87,8 +87,9 @@ function App() {
   ];
 
   const COLORS = [
-    "rgba(255, 0, 0, 0.8)", // Red with 60% opacity
-    "rgba(0, 0, 255, 0.7)", // Blue with 60% opacity
+    // Red with 60% opacity
+    "rgba(0, 0, 255, 0.7)",
+    "rgba(255, 0, 0, 0.8)", // Blue with 60% opacity
   ];
   const handleChange = (feature, newValue) => {
     setValues((prevValues) => ({
