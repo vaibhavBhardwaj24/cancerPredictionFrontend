@@ -101,11 +101,11 @@ function App() {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://d272-182-69-177-158.ngrok-free.app/api/prediction",
+        "https://0058-182-69-177-158.ngrok-free.app/api/prediction",
         values
       );
       const graphResponse = await axios.post(
-        "https://d272-182-69-177-158.ngrok-free.app/api/graph",
+        "https://0058-182-69-177-158.ngrok-free.app/api/graph",
         values
       );
 
